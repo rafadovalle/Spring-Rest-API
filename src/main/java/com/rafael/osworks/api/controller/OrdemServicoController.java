@@ -41,6 +41,7 @@ public class OrdemServicoController {
 	@ResponseStatus(HttpStatus.CREATED)
 	public OrdemServicoModel criar(@Valid @RequestBody OrdemServicoInput ordemServicoInput) {
 		OrdemServico ordemServico = toEntity(ordemServicoInput);
+		
 		return toModel(gestaoOrdemServico.criar(ordemServico));
 	}
 	

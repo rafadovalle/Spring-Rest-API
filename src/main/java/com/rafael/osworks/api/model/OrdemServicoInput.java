@@ -8,6 +8,8 @@ import javax.validation.constraints.NotNull;
 
 public class OrdemServicoInput {
 
+	//RepresentationModel
+	
 	@NotBlank
 	private String descricao;
 	@NotNull

@@ -9,8 +9,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import com.rafael.osworks.domain.ValidationGroups;
-
 //Poderia adicionar Lombok para Getter e Setters
 
 @Entity
@@ -18,7 +16,7 @@ public class Cliente {
 	
 	//Anotações Jakarta Bean Validation
 	
-	@NotNull(groups = ValidationGroups.ClienteId.class)
+	//@NotNull(groups = ValidationGroups.ClienteId.class)
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //Auto-increment
 	private Long id;
