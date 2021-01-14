@@ -1,6 +1,5 @@
 package com.rafael.osworks.api.exceptionhandler;
 
-import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.util.ArrayList;
 
