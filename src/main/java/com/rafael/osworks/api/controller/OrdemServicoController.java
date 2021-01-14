@@ -71,8 +71,6 @@ public class OrdemServicoController {
 		gestaoOrdemServico.finalizar(ordemServicoId);
 	}
 	
-	
-	
 	private OrdemServicoModel toModel(OrdemServico ordemServico) {
 		return modelMapper.map(ordemServico, OrdemServicoModel.class);
 	}
@@ -87,8 +85,4 @@ public class OrdemServicoController {
 	private OrdemServico toEntity(OrdemServicoInput ordemServicoInput) {
 		return modelMapper.map(ordemServicoInput, OrdemServico.class);
 	}
-	
-	
-	
-	
 }
