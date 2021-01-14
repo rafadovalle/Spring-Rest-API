@@ -83,10 +83,6 @@ public class ClienteController {
 		
 		clienteService.excluir(clienteId);
 		
-		return ResponseEntity.noContent().build();
-		
+		return ResponseEntity.noContent().build();	
 	}
-	
-	
-	
 }
