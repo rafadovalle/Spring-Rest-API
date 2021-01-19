@@ -4,6 +4,8 @@ import javax.validation.constraints.NotNull;
 
 public class ClienteIdInput {
 
+	
+	
 	@NotNull
 	private Long id;
 
@@ -14,5 +16,4 @@ public class ClienteIdInput {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
 }
